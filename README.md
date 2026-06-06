@@ -39,4 +39,8 @@ The simulation mimics physical warehouse constraints through precisely controlle
 * **Dynamic Resource Contention**
   * If the loading bays reach their 5-container maximum capacity, packing threads are dynamically suspended and resumed once space clears.  
 * **Graceful Termination**
-  * Implements a strict shutdown protocol using `join()` and `awaitTermination()` to ensure all executing threads complete their lifecycles cleanly without dangling objects or memory leaks.  
+  * Implements a strict shutdown protocol using `join()` and `awaitTermination()` to ensure all executing threads complete their lifecycles cleanly without dangling objects or memory leaks.
+
+---
+## Documentation
+The report for this project can be accessed [here](https://github.com/BengRhui/E_Commerce_Delivery_System/blob/a5d89d3135ea2cbf06d0275920313f912be2e8ce/CCP_Report.pdf).
